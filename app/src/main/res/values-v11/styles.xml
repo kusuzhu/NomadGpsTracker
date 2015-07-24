@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTitleSize">0dp</item>
+    </style>
+    <style name="TextViewSettingTitle" parent="android:Widget.TextView">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="TextViewSettingDesc" parent="android:Widget.TextView">
+        <item name="android:textColor">#AAA</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+</resources>

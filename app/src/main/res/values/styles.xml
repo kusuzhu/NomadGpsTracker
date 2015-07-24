@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme">
+
+    </style>
+    <style name="TextViewSettingTitle" parent="android:Widget.TextView">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="TextViewSettingDesc" parent="android:Widget.TextView">
+        <item name="android:textColor">#AAA</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SettingView">
+        <attr name="setting_title" format="string"/>
+        <attr name="setting_desc" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="NumPicker">
+        <attr name="value_max" format="integer"/>
+        <attr name="value_min" format="integer"/>
+    </declare-styleable>
+</resources>

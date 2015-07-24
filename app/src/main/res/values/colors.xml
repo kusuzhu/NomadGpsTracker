@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000</color>
+    <color name="background">#222</color>
+    <color name="white">#fff</color>
+    <color name="mat_blue">#33b5e5</color>
+    <color name="mat_blue_pressed">#007564</color>
+    <color name="green">#0f0</color>
+    <color name="orange">#ff8000</color>
+    <color name="red">#f00</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="pink">#c72e63</color>
+    <color name="blue">#20add4</color>
+    <color name="gray">#555</color>
+</resources>

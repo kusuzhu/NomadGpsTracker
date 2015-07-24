@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+    <LinearLayout
+        android:id="@+id/picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+        <com.nomad_gps.views.NumPicker
+            android:id="@+id/picker1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"/>
+        <com.nomad_gps.views.NumPicker
+            android:id="@+id/picker2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_below="@+id/picker"
+        android:layout_marginTop="20dp"/>
+    <RadioGroup
+        android:id="@+id/rgMode"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/divider">
+        <RadioButton
+            android:id="@+id/rbTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="время"
+            android:layout_weight="1"
+            />
+        <RadioButton
+            android:id="@+id/rbDist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="расстояние"
+            android:layout_weight="1"/>
+    </RadioGroup>
+
+</RelativeLayout>

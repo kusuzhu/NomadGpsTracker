@@ -1,0 +1,42 @@
+<resources>
+    //App's strings
+    <string name="app_name">Nomad GPS Tracker</string>    
+    <string name="action_settings">Settings</string>
+    
+    //Main Activity's Strings
+    <string name="imei">IMEI:</string>
+    <string name="sos">Режим SOS:</string>
+    <string name="start_service">Запустить</string>
+    <string name="stop_service">Остановить</string>
+    <string name="status">Статус:</string>
+    <string name="lat">Широта:</string>
+    <string name="lon">Долгота:</string>
+    <string name="coordinates_in_buffer">Координат\nв буфере:</string>
+    <string name="sent_coordinates">Координат отправлено:</string>
+    <string name="altitude">Высота:</string>
+    <string name="bearing">Азимут:</string>
+    <string name="battery">Заряд батареи:</string>
+    <string name="active">Сервис запущен</string>
+    <string name="passive">Сервис не запущен</string>
+    <string name="conn_error">Ошибка соединения</string>
+    <string name="gps_disabled">GPS отключен</string>
+    <string name="network_disabled">Отсутвует </string>
+
+    //Settings' strings
+    <string name="send_interval">Интвервал отправки</string>
+    <string name="send_interval_desc">Установка итервала отправки пакетов на сервер</string>
+    <string name="get_interval">Интервал получения данных GPS</string>
+    <string name="get_interval_desc">Установка частоты получения данных GPS</string>
+    <string name="use_password">Использовать пароль</string>
+    <string name="use_password_desc">Ограничение доступа через пароль</string>
+    <string name="password">Пароль</string>
+    <string name="password_desc">Утановка пароля суперпользователя</string>
+    <string name="server">Сервер</string>
+    <string name="server_desc">Выбрать сервер для отправки пакетов</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+    <string name="empty_password">Введите пароль</string>
+    <string name="passwords_do_not_match">Пароли не совпадают</string>
+    <string name="wrong_password">Неверный пароль</string>
+
+</resources>
